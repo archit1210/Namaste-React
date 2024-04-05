@@ -1,0 +1,53 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+.logofood {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.navbar {
+  /* background-color: rebeccapurple; */
+  height: 120px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navitems {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.searchBar {
+  padding: 10px;
+}
+
+.res-card {
+  height: 350px;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.resContainer {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-logo {
+  width: 100%;
+}
